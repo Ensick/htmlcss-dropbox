@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 html{
@@ -15,6 +15,10 @@ button{
   border: none;
   font-size: 1rem;
   cursor: pointer;
+}
+
+a{
+  color: #4E8EF5;
 }
 
 /* HEADER */
@@ -45,6 +49,7 @@ nav div > span{
   padding: 0.5rem 1rem;
   background-color: #0061ff;
   color: white;
+  cursor: pointer;
 }
 
 /* JUMBOTRON */
@@ -82,6 +87,80 @@ nav div > span{
 }
 
 /* MAIN */
+
+main{
+  height: 400vh;
+}
+
+.sottotitolo h2{
+  font-size: 2.5em;
+  margin: 2.5em 0 2.4rem 0;
+}
+
+.sottotitolo input{
+  margin: 0 0 3rem 0;
+}
+
+.sottotitolo div{
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+
+.head{
+  border-bottom: 1px solid lightgray;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.space-bar{
+  width: 2rem;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.fa-check{
+  color: #4E8EF5;
+}
+
+.columns h3{
+  margin-bottom: 1rem;
+}
+
+.columns p{
+  margin-bottom: 0.5rem;
+}
+
+.column-top{
+  margin-bottom: 2.5rem;
+}
+
+.columns div ul > li{
+  margin-bottom: 1.2rem;
+}
+
+.column-list-top{
+  margin-bottom: 3rem;
+}
+
+.link{
+  margin: 2rem 0;
+}
+
+.link span{
+  margin-bottom: 1rem;
+}
+
+.link .space-bar{
+  margin-top: 2rem;
+}
+
+.column-list-btm ul > li{
+ margin: 1.5rem 0;
+}
+
+
+
 
 
 

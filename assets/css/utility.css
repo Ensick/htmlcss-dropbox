@@ -1,4 +1,12 @@
 
+.text-al-center{
+    text-align: center;
+}
+
+.border-lightgray{
+    border: 1px solid lightgray;
+}
+
 .container-80{
     width: 80%;
     margin: 0 auto;
@@ -26,6 +34,10 @@
     margin-top: 6rem;
 }
 
+.padding-s{
+    padding: 1rem;
+}
+
 .p-relative{
     position: relative;
 }
@@ -41,6 +53,11 @@
 .flex-basis40{
     flex-basis: 40%;
 }
+
+.flex-basis30{
+    flex-basis: 30%;
+}
+
 
 .wrap{
     flex-wrap: wrap;
