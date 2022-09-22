@@ -245,15 +245,86 @@ main{
   margin-bottom: 1.5rem;
 }
 
+.business h3{
+  margin: 7rem 0 3rem;
+  font-size: 2rem;
+ }
+ 
 /* FINE QUARTA SEZIONE */
 
 /* INIZIO QUINTA SEZIONE */
 
-.business h3{
- margin: 7rem 0 3rem;
- font-size: 2rem;
+.box{
+  width: calc(100% / 2 );
+  height: 300px;
 }
 
+.logo5 > img{
+  width: 45%;
+}
+
+.divisor{
+  height: 1px;
+  width: 6rem;
+  background-color: lightgray;
+  margin: 2.5rem 0;
+}
+
+.section5-center{
+ background-color: #F5F5F5 ;
+}
+
+.section5-center div > p{
+ margin: 0 0 2rem 0;
+}
+
+.section5{
+  margin: 6rem 0;
+}
+
+.box img{
+  width: 50%;
+  filter: invert(1);
+}
+
+/* COLORI */
+
+.verde{
+  background-color: #a2d39b;
+  box-shadow: inset 0px 2px 0px 20px #D1E9CD;
+}
+
+.bordeux{
+  background-color: #61082B;
+}
+
+.azzurro{
+  background-color: #0093CE;
+}
+
+.rosso{
+  background-color: #FF1C1C;
+}
+
+.rosso-scuro{
+  background-color: #D5001F;
+}
+
+.celeste{
+  background-color: #B4D0E7;
+}
+
+.blue{
+  background-color: #0D2481;
+}
+
+.giallo{
+  background-color: #FFD830;
+}
+
+/* COLORI */
+
+/* FINE SEZIONE CINQUE */
 
 
 
