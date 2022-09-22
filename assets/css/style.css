@@ -7,15 +7,33 @@
   text-decoration: none;
 }
 
-img{
-  display: block;
+html{
+  font-size: 1.2rem;
 }
 
 /* HEADER */
 
-
+header{
+  padding: 2rem 1rem;
+}
 
 /* NAV */
+
+nav div > img{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+nav div > span{
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.start{ 
+  padding: 0.5rem 1rem;
+  background-color: #0061ff;
+  color: white;
+}
 
 
 
