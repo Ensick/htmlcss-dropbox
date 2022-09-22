@@ -50,6 +50,7 @@ nav div > span{
   background-color: #0061ff;
   color: white;
   cursor: pointer;
+  display: inline-block;
 }
 
 /* JUMBOTRON */
@@ -87,6 +88,8 @@ nav div > span{
 }
 
 /* MAIN */
+
+/* PRIMA SEZIONE */
 
 main{
   height: 400vh;
@@ -165,6 +168,60 @@ main{
   color: white;
   cursor: pointer;
   margin: 0 0 0 0.3rem;
+  display: inline-block;
+}
+
+/* FINE PRIMA SEZIONE */
+
+/* INIZIO SECONDA SEZIONE */
+
+.team{
+  margin-top: 3rem;
+  border: 1px solid lightgray;
+}
+
+.team div > h3{
+  margin-bottom: 1.5rem;
+}
+
+.team .flex-basis60 > span{
+  font-weight: bold;
+}
+
+.team .flex-basis60 > p{
+  margin-top: 2.5rem;
+}
+
+/* FINE SECONDA SEZIONE */
+
+/* INIZIO TERZA SEZIONE */
+
+.cont-partner{
+  margin-top: 7rem;
+}
+
+.cont-partner div > img{
+  width: 100%;
+}
+
+.section3-left{
+  padding: 3rem 0 0 2rem;
+}
+
+.section3-left h3{
+  margin-bottom: 1.5rem;
+}
+
+.section3-left p{
+  margin-bottom: 2rem;
+}
+
+.btn-partner{
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
 }
 
 

@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.text-al-right{
+    text-align: right;
+}
+
 .border-lightgray{
     border: 1px solid lightgray;
 }
@@ -36,6 +40,9 @@
 
 .padding-s{
     padding: 1rem;
+}
+.padding-m{
+    padding: 2rem;
 }
 
 .p-relative{
@@ -101,4 +108,8 @@
 
 .align-content-center{
   align-content: center;
+}
+
+.align-self-end{
+    align-self: flex-end ;
 }
