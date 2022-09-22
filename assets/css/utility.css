@@ -1,11 +1,45 @@
 
-.conteiner-80{
+.container-80{
     width: 80%;
     margin: 0 auto;
 }
 
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-50{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.margin-top-s{
+    margin-top: 2rem;
+}
+
+.margin-top-m{
+    margin-top: 4rem;
+}
+
+.margin-top-l{
+    margin-top: 6rem;
+}
+
+.p-relative{
+    position: relative;
+}
+
 .flex{
     display: flex;
+}
+
+.flex-basis60{
+    flex-basis: 60%;
+}
+
+.flex-basis40{
+    flex-basis: 40%;
 }
 
 .wrap{

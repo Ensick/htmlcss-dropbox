@@ -11,10 +11,22 @@ html{
   font-size: 1.2rem;
 }
 
+button{
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 /* HEADER */
 
 header{
-  padding: 2rem 1rem;
+  padding: 1.5rem 0.5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 /* NAV */
@@ -35,7 +47,39 @@ nav div > span{
   color: white;
 }
 
+/* JUMBOTRON */
 
+.jumbotron{
+  background-color: #B4D0E7;
+  margin-top: 100px;
+}
+
+.jumbo-container{
+  margin: 3rem 0 0 0;
+}
+
+.jumbo-container span{
+  margin-top: 2rem;
+}
+
+.jumbo-container p{
+  cursor: pointer;
+}
+
+.jumbotron h1{
+  font-size: 4.5rem;
+  padding-top: 2rem;
+}
+
+.jumbo-img > img{
+  width: 120%;
+  position: absolute;
+}
+
+.fa-arrow-down{
+  margin: 4rem 0 1rem 0;
+  font-size: 3rem;
+}
 
 /* MAIN */
 
