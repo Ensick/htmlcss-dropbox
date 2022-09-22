@@ -106,7 +106,6 @@ main{
   margin-right: 2rem;
 }
 
-
 .head{
   border-bottom: 1px solid lightgray;
   padding: 0.5rem;
@@ -157,6 +156,15 @@ main{
 
 .column-list-btm ul > li{
  margin: 1.5rem 0;
+}
+
+.contact{
+  text-align: center;
+  padding: 0.5rem 4rem;
+  background-color: #0061ff;
+  color: white;
+  cursor: pointer;
+  margin: 0 0 0 0.3rem;
 }
 
 
