@@ -224,6 +224,37 @@ main{
   cursor: pointer;
 }
 
+/* FINE TERZA SESSIONE */
+
+/* INIZIO QUARTA SEZIONE */
+
+.img-carta > img{
+  width: 100%;
+}
+
+.section-h3{
+  margin: 5rem 0 2rem 0;
+  font-size: 2rem;
+}
+
+.carta{
+  margin: 2rem 0 0 0;
+}
+
+.carta div > h2{
+  margin-bottom: 1.5rem;
+}
+
+/* FINE QUARTA SEZIONE */
+
+/* INIZIO QUINTA SEZIONE */
+
+.business h3{
+ margin: 7rem 0 3rem;
+ font-size: 2rem;
+}
+
+
 
 
 
