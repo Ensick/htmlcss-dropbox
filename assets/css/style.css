@@ -293,6 +293,12 @@ nav div > span{
   filter: invert(1);
 }
 
+.scroll{
+  overflow: scroll;
+  width: calc( 100vw / 3);
+  height: calc( 100vw / 3);
+}
+
 /* COLORI */
 
 .verde{
