@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  /* text-decoration: none; */
 }
 
 html{
@@ -35,6 +34,12 @@ header{
 
 /* NAV */
 
+/* NAV-HOVER */
+ 
+
+
+/* NAV-HOVER */
+
 nav div > img{
   margin-right: 1rem;
   cursor: pointer;
@@ -43,6 +48,7 @@ nav div > img{
 nav div > span{
   margin: 0 1rem;
   cursor: pointer;
+  position: relative;
 }
 
 .start{ 
@@ -256,7 +262,7 @@ nav div > span{
 
 .box{
   width: calc(100% / 2 );
-  height: 300px;
+  height: calc( 100vw / 6);
 }
 
 .logo5 > img{
@@ -349,6 +355,17 @@ nav div > span{
 
 /* INIZIO SEZIONE SETTE */
 
+.cont-section7 div > p{
+  display: none;
+  margin-top: 1.5rem;
+}
+
+.fa-angle-up{
+  padding-right: 2rem;
+  display: none;
+}
+
+
 .cont-section7{
   margin: 5rem auto;
   width: 50%;
@@ -374,6 +391,22 @@ nav div > span{
   padding-right: 2rem;
 }
 
+/* HOVER */
+
+.mini-cont:hover p{
+  display: block;
+}
+
+.mini-cont:hover .fa-angle-up{
+  display: block;
+}
+
+.mini-cont:hover .fa-angle-down{
+  display: none;
+}
+
+/* HOVER */
+
 /* FINE SEZIONE SETTE */
 
 /* FOOTER */
@@ -389,6 +422,7 @@ footer{
 
 .footer-cont div ul > li{
   margin: 0 0 1rem 0;
+  cursor: pointer;
 }
 
 .footer-cont div > h4{
