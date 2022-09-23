@@ -91,10 +91,6 @@ nav div > span{
 
 /* PRIMA SEZIONE */
 
-main{
-  height: 400vh;
-}
-
 .sottotitolo h2{
   font-size: 2.5em;
   margin: 2.5em 0 2.4rem 0;
@@ -279,7 +275,7 @@ main{
 }
 
 .section5{
-  margin: 6rem 0;
+  margin: 6rem 0 0 0;
 }
 
 .box img{
@@ -326,9 +322,82 @@ main{
 
 /* FINE SEZIONE CINQUE */
 
+/* INIZIO SEZIONE SEI */
 
+.bg-lightblue{
+  background-color: #B4D0E7;
+}
 
+.section6-right h3{
+  font-size: 2em;
+  color: #61082B;
+}
 
+.cont-section6{
+  padding: 6rem 0;
+}
 
+.section6-left{
+  padding-left: 10rem;
+}
+
+/* FINE SEZIONE SEI */
+
+/* INIZIO SEZIONE SETTE */
+
+.cont-section7{
+  margin: 5rem auto;
+  width: 50%;
+}
+
+.cont-section7 div > span{
+  font-weight: bold;
+}
+
+.divisor7{
+  height: 2px;
+  width: 100%;
+  background-color: lightgray;
+  margin: 1.5rem 0;
+}
+
+.h3-font{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.fa-angle-down{
+  padding-right: 2rem;
+}
+
+/* FINE SEZIONE SETTE */
 
 /* FOOTER */
+
+footer{
+  background-color: #000000;
+  color: white;
+}
+
+.footer-cont{
+  padding: 5rem 0;
+}
+
+.footer-cont div ul > li{
+  margin: 0 0 1rem 0;
+}
+
+.footer-cont div > h4{
+  margin-bottom: 2rem;
+}
+
+.divider-footer{
+  height: 2px;
+  width: 4rem;
+  background-color: #DCDCDC;
+  margin: 3rem 0;
+}
+
+.lingua-footer{
+  color: #DCDCDC ;
+}

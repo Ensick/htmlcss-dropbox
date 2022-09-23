@@ -38,12 +38,21 @@
     margin-top: 6rem;
 }
 
+.margin-left-m{
+    margin-right: 2rem;
+}
+
 .padding-s{
     padding: 1rem;
 }
 .padding-m{
     padding: 2rem;
 }
+
+.padding-right{
+    padding-right: 2rem;
+  }
+  
 
 .p-relative{
     position: relative;
@@ -55,6 +64,10 @@
 
 .flex-basis60{
     flex-basis: 60%;
+}
+
+.flex-basis45{
+    flex-basis: 45%;
 }
 
 .flex-basis40{
