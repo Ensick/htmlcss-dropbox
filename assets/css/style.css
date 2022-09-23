@@ -60,6 +60,11 @@ nav div > span{
   margin-top: 100px;
 }
 
+.p-relative-jumbo{
+  position: relative;
+  top: 70px;
+}
+
 .jumbo-container{
   margin: 3rem 0 0 0;
 }
@@ -79,7 +84,6 @@ nav div > span{
 
 .jumbo-img > img{
   width: 120%;
-  position: absolute;
 }
 
 .fa-arrow-down{
@@ -400,4 +404,8 @@ footer{
 
 .lingua-footer{
   color: #DCDCDC ;
+}
+
+.lingua-footer span{
+  margin: 0 0.5rem;
 }
