@@ -301,7 +301,7 @@ nav div > span{
 }
 
 .scroll{
-  overflow: scroll;
+  overflow-y: scroll;
   width: calc( 100vw / 3);
   height: calc( 100vw / 3);
 }
@@ -378,7 +378,6 @@ nav div > span{
   display: none;
 }
 
-
 .cont-section7{
   margin: 5rem auto;
   width: 50%;
@@ -399,6 +398,8 @@ nav div > span{
   font-size: 2rem;
   margin-bottom: 3rem;
 }
+
+
 
 .fa-angle-down{
   padding-right: 2rem;
